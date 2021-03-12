@@ -55,14 +55,14 @@ window.addEventListener("load", function() {
 
     let down = this.document.getElementById('down');
     down.addEventListener('click', function() {
-        movement = parseInt(imgObj.style.bottom) - 10 + 'px;
+        movement = parseInt(imgObj.style.bottom) - 10 + 'px';
         imgObj.style.bottom = movement;
         spaceShuttleHeight.innerHTML = parseInt(spaceShuttleHeight.innerHTML) - 10000;
     });
 
     let up = this.document.getElementById('up');
     up.addEventListener('click', function() {
-        movement = parseInt(imgObj.style.bottom) + 10 + 'px;
+        movement = parseInt(imgObj.style.bottom) + 10 + 'px';
         imgObj.style.bottom = movement;
         spaceShuttleHeight.innerHTML = parseInt(spaceShuttleHeight.innerHTML) + 10000;
     });
